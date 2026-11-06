@@ -37,7 +37,7 @@ form.addEventListener("submit", function (event) {
     }
 
     if (interestValue === "") {
-        errors.push("Please select an area of interest.");
+        errors.push("Please Select an option.");
         firstInvalidField = firstInvalidField || interestSelect;
     }
 
