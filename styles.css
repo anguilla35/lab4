@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 620px;
+    margin: 40px auto;
+    padding: 0 20px;
+    line-height: 1.5;
+}
+
+label {
+    display: block;
+    margin-top: 16px;
+}
+
+input, select, button {
+    font: inherit;
+    padding: 8px;
+    margin-top: 4px;
+}
+
+input, select {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    min-height: 1.5em;
+}

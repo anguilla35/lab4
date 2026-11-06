@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Community Volunteer Interest Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Volunteer With Us</h1>
+    <p>Interested in supporting our community? Complete the form below to explore volunteer opportunities.</p>
+
+    <!-- This is a practice form. It does not send or save information. -->
+    <form id="volunteerForm" novalidate>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" autocomplete="name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" autocomplete="email" required>
+
+        <label for="interest">Area of Interest</label>
+        <select id="interest" name="interest" required>
+            <option value="">-- Select an area of interest --</option>
+            <option value="outreach">Community Outreach</option>
+            <option value="events">Event Support</option>
+            <option value="mentoring">Youth Mentoring</option>
+        </select>
+
+        <button type="submit">Submit Interest</button>
+    </form>
+
+    <p id="result" role="status" aria-live="polite"></p>
+
+    <script src="volunteer.js"></script>
+</body>
+</html>
